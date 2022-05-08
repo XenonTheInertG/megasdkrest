@@ -1,4 +1,4 @@
-FROM ghcr.io/XenonTheInertG/megarestbase AS builder
+FROM ghcr.io/xenontheinertg/megarestbase AS builder
 
 ARG CPU_ARCH="amd64"
 ENV HOST_CPU_ARCH=$CPU_ARCH
